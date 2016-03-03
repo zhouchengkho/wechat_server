@@ -2,7 +2,7 @@ var weixin      = require('weixin-api');
 var express     = require('express');
 var app         = express();
 var config = require('./config');
-var history = require('./node_modules/weixin-api/lib/history');
+var history = require('./history');
 var WechatAPI = require('wechat-api');
 var api = new WechatAPI(config.appID, config.appsecret);
 
